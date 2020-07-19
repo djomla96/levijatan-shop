@@ -85,3 +85,8 @@ footer .wrapper {
 .footer-wrapper ul {
     padding: 0;
 }
+.copyright {
+    width: 100%;
+    text-align: left;
+    color: #444c44;
+}

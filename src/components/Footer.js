@@ -83,6 +83,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
+                    <div className="copyright"><p>@2020 Levijatan</p></div>
                 </div>
             </div>
             
