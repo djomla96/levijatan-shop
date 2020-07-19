@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="wrapper">
                     <div className="footer-logo">
-                        <img src={logo}></img>
+                        <img alt="logo" src={logo}></img>
                     </div>
                     <div className="footer-icons">
                         <a href="https://www.facebook.com/pasazot/"> <i className="fa fa-facebook nf"></i></a>
@@ -31,55 +31,55 @@ const Footer = () => {
                     <div className="footer-wrapper">
                         <div className="footer-bottom-box-img">
                             <ul>
-                                <li><img src={logo}></img></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
+                                <li><img alt="logo" src={logo}></img></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
                             </ul>
                         </div>
                         <div className="footer-bottom-box">
                             <ul>
                                 <li className="footer-box-title">Nesto</li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
                             </ul>
                         </div>
                         <div className="footer-bottom-box">
                             <ul>
                                 <li className="footer-box-title">Nesto</li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
                             </ul>
                         </div>
                         <div className="footer-bottom-box">
                             <ul>
                                 <li className="footer-box-title">Nesto</li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
                             </ul>
                         </div>
                         <div className="footer-bottom-box">
                             <ul>
                                 <li className="footer-box-title">Nesto</li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
                             </ul>
                         </div>
                         <div className="footer-bottom-box">
                             <ul>
                                 <li className="footer-box-title">Nesto</li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
-                                <li><a>Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
+                                <li><a href="/">Nesto</a></li>
                             </ul>
                         </div>
                     </div>

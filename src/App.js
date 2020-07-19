@@ -11,7 +11,7 @@ import Membership from "./pages/Membership";
 import Shop from "./pages/Shop";
 import Contact from "./pages/Contact";
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Router, Route, Switch } from 'react-router-dom';
 import history from "./utils/history";
 
 function App() {
