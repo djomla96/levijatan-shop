@@ -49,11 +49,11 @@ export default class Header extends Component {
             <div className="nav-mobile-list">
               <ul>
                 <li><a href="/">Početna</a></li>
-                <li><a href="/">O nama</a></li>
-                <li><a href="/">Video Arhiva</a></li>
-                <li><a href="/">Članska Karta</a></li>
-                <li><a href="/">Prodavnica</a></li>
-                <li><a href="/">Kontakt</a></li>
+                <li><a href="/about">O nama</a></li>
+                <li><a href="/video-archive">Video Arhiva</a></li>
+                <li><a href="/membership">Članska Karta</a></li>
+                <li><a href="/shop">Prodavnica</a></li>
+                <li><a href="/contact">Kontakt</a></li>
               </ul>
             </div>
           </div>
