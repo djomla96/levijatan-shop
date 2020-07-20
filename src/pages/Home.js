@@ -10,9 +10,9 @@ export default class Home extends Component {
             <div>
                 <div className="banner-wrapper">
                     <div className="banner-text-wrapper">
-                        <img className="banner-text" src={bannerText}></img>
+                        <img alt="bannerText" className="banner-text" src={bannerText}></img>
                     </div>
-                    <img src={bannerImg}></img>
+                    <img alt="bannerImg" src={bannerImg}></img>
                 </div>
             </div>
         )
