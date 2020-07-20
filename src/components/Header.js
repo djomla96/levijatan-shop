@@ -1,7 +1,7 @@
 import '../css/header.css'
 
 import React, { Component } from 'react'
-import logo from "../images/logo.jpg";
+import logo from "../images/logo.png";
 // import history from "../utils/history";
 
 export default class Header extends Component {
@@ -21,9 +21,9 @@ export default class Header extends Component {
           <div className="desktop-nav">
             <div className="nav-left">
               <ul>
-                <li><a href="/">Pocetna</a></li>
-                <li><a href="/">O nama</a></li>
-                <li><a href="/">Video Arhiva</a></li>
+                <li><a href="/">Početna</a></li>
+                <li><a href="/about">O nama</a></li>
+                <li><a href="/video-archive">Video Arhiva</a></li>
               </ul>
             </div>
             <div className="nav-logo">
@@ -31,9 +31,9 @@ export default class Header extends Component {
             </div>
             <div className="nav-right">
               <ul>
-                <li><a href="/">Clanska Karta</a></li>
-                <li><a href="/">Prodavnica</a></li>
-                <li><a href="/">Kontakt</a></li>
+                <li><a href="/membership">Članska Karta</a></li>
+                <li><a href="/shop">Prodavnica</a></li>
+                <li><a href="/contact">Kontakt</a></li>
               </ul>
             </div>
           </div>
@@ -48,10 +48,10 @@ export default class Header extends Component {
             </div>
             <div className="nav-mobile-list">
               <ul>
-                <li><a href="/">Pocetna</a></li>
+                <li><a href="/">Početna</a></li>
                 <li><a href="/">O nama</a></li>
                 <li><a href="/">Video Arhiva</a></li>
-                <li><a href="/">Clanska Karta</a></li>
+                <li><a href="/">Članska Karta</a></li>
                 <li><a href="/">Prodavnica</a></li>
                 <li><a href="/">Kontakt</a></li>
               </ul>

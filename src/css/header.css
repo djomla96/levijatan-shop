@@ -11,7 +11,7 @@ nav ul {
 }
 nav ul li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 15px;
     cursor: pointer;
 }
 nav ul li a {
@@ -22,7 +22,8 @@ nav ul li a:hover {
     color: #444c44;;
 }
 .nav-logo {
-    max-width: 200px;
+    max-width: 80px;
+    padding: 0 25px;
 }
 .nav-logo img {
     width: 100%;
@@ -35,7 +36,8 @@ nav ul li a:hover {
     align-items: center;
 }
 .nav-logo-mobile {
-    width: 200px;
+    max-width: 80px;
+    padding-left: 10px;
 }
 .nav-logo-mobile img {
     width: 100%;

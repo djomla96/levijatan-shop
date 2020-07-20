@@ -1,5 +1,6 @@
 html, body {
   overflow-x: hidden;
+  font-family: levijatan;
 }
 .loading-wrapper {
   position: fixed;
@@ -18,4 +19,13 @@ html, body {
 }
 a {
   text-decoration: none;
+}
+
+@font-face {
+  font-family: levijatan;
+  src: url(fonts/levijatan.TTF);
+}
+@font-face {
+  font-family: ubuntu;
+  src: url(fonts/ubuntu.TTF);
 }

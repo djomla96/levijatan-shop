@@ -3,7 +3,6 @@ footer {
 }
 .footer-top {
     background-color: #0a0a0a;
-
 }
 footer .wrapper {
     display: flex;
@@ -13,7 +12,7 @@ footer .wrapper {
     align-items: center;
 }
 .footer-logo {
-    max-width: 250px;
+    max-width: 115px;
     position: relative;
 }
 .footer-logo img {
@@ -21,6 +20,10 @@ footer .wrapper {
 }
 .footer-text p {
     text-align: justify;
+    font-family: ubuntu;
+}
+.footer-text p span {
+    color: red;
 }
 
 .footer-logo::before {
@@ -31,7 +34,7 @@ footer .wrapper {
     margin: 0 1rem;
     transform: translateY(-1rem);
     position: absolute;
-    left: -185px;
+    left: -200px;
     top: 50%;
 }
 .footer-logo::after {
@@ -42,14 +45,14 @@ footer .wrapper {
     margin: 0 1rem;
     transform: translateY(-1rem);
     position: absolute;
-    right: -185px;
+    right: -200px;
     top: 50%;
 }
 .footer-bottom {
     background-color: #000000;
 }
 .footer-bottom-box-img {
-    max-width: 200px;
+    max-width: 110px;
 }
 .footer-bottom-box-img img {
     width: 100%;
@@ -58,16 +61,21 @@ footer .wrapper {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
 }
 .footer-bottom-box {
     min-width: 200px;
-    padding-top: 50px;
 }
 .footer-wrapper li {
     color: #444c44;
     list-style: none;
     cursor: pointer;
+}
+.footer-wrapper li a {
+    transition: all 0.3s ease-in-out;
+}
+.footer-wrapper li a:hover {
+    color: #ffffff;
 }
 .footer-box-title {
     color: #ffffff!important;
@@ -89,13 +97,21 @@ footer .wrapper {
     width: 100%;
     text-align: left;
     color: #444c44;
+    font-family: ubuntu;
 }
 .footer-wrapper li a {
     color: #444c44;
 }
 .desktop-nav a {
     color: #ffffff;
+    font-size: 20px;
 }
 .mobile-nav a {
     color: #ffffff;
+}
+.footer-title {
+    font-size: 25px;
+}
+.footer-text-desc {
+    text-align: right!important;
 }
