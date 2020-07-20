@@ -108,6 +108,7 @@ footer .wrapper {
 }
 .mobile-nav a {
     color: #ffffff;
+    text-transform: uppercase;
 }
 .footer-title {
     font-size: 25px;
