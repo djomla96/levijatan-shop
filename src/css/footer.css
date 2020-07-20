@@ -116,3 +116,11 @@ footer .wrapper {
 .footer-text-desc {
     text-align: right!important;
 }
+@media only screen and (max-width: 550px) {
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-bottom-box-img {
+        margin: 0 auto;
+    }
+}
