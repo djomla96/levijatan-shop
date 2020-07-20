@@ -20,7 +20,7 @@ function App() {
       <div className="App">
         <Header />
           <Switch>
-            <Route path={'/'} component={Home}/>
+            <Route exact path={'/'} component={Home}/>
             <Route exact path={'/about'} component={About}/>
             <Route exact path={'/video-archive'} component={VideoArchive}/>
             <Route exact path={'/membership'} component={Membership}/>
