@@ -30,7 +30,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-bottom-box">
                             <ul>
-                                <li className="footer-box-title">Budi human</li>
+                                <li className="footer-box-title">Clanstvo</li>
                                 <li><a href="/">Želite udomiti stićenika</a></li>
                                 <li><a href="/membership">Postani član</a></li>
                             </ul>
