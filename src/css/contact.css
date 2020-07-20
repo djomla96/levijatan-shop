@@ -14,17 +14,6 @@
     margin-bottom: 30px;
     text-transform: uppercase;
 }
-.contact h1::after {
-    display: inline-block;
-    content: "";
-    border-top: .2rem solid #1f1f1f;
-    width: 11rem;
-    transform: translate(-4px, -50%);
-    position: absolute;
-    right: 42%;
-    filter: blur(1px);
-    bottom: -8px;
-}
 .contact form {
     max-width: 500px;
     margin: 0 auto;
@@ -75,7 +64,7 @@ textarea {
     right: 0;
     bottom: -8px;
 }
-span{
+.input span{
     position: absolute;
     display: block;
     color: darken(#EDEDED, 10%);
@@ -113,7 +102,7 @@ input:focus{
 .email {
     margin-right: 0!important;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     .wrapper-form-top {
         flex-direction: column;
     }

@@ -14,17 +14,6 @@
     margin-bottom: 30px;
     text-transform: uppercase;
 }
-.about-us h1::after {
-    display: inline-block;
-    content: "";
-    border-top: .2rem solid #1f1f1f;
-    width: 10rem;
-    transform: translate(-4px, -50%);
-    position: absolute;
-    right: 43%;
-    filter: blur(1px);
-    bottom: -8px;
-}
 .about-us p {
     font-family: ubuntu;
 }

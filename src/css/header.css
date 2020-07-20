@@ -32,6 +32,7 @@ nav ul li a:hover {
     background-color: #000000;
 }
 .desktop-nav {
+    margin-left: 30px;
     display: flex;
     align-items: center;
 }
