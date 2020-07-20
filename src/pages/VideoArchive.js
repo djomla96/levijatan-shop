@@ -11,7 +11,7 @@ export default class Video extends Component {
                 <div className="title"><h1>Video Arhiva</h1></div>
                     <div className="video-wrapper">
                         {videos.map(video => {
-                            return <SingleVideo video={video.video} img={video.img} title={video.title} desc={video.desc}/>
+                            return <SingleVideo key={video.title}video={video.video} img={video.img} title={video.title} desc={video.desc}/>
                         })}
                     </div>
                 </div>

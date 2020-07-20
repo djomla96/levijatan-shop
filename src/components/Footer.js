@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/footer.css';
 import logo from "../images/logo.png";
-import logoNoText from "../images/logo-without-text.png";
 
 const Footer = () => {
     return (
