@@ -13,4 +13,11 @@
     left: 8%;
     transform: translate(-8%, -50%);
 }
-/* @media only screen and (max-width: 600px) and (min-width: 400px)  {...} */
+@media only screen and (max-width: 550px) and (min-width: 320px)  {
+    .banner-wrapper {
+        height: 30vh;
+    }
+    .banner-wrapper img {
+        height: 100%;
+    }
+}
