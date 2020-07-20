@@ -1,0 +1,52 @@
+.video-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.single-video {
+    width: 30%;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.single-video h3 {
+    margin-top: 20px!important;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.single-video p {
+    padding: 0 10px;
+}
+.title h1 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+.title h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .2rem solid #1f1f1f;
+    width: 10rem;
+    transform: translate(-4px, -50%);
+    position: absolute;
+    right: 43%;
+    filter: blur(1px);
+    bottom: -8px;
+}
+.videos-page-wrapper {
+    background-image: url("../images/backwithlogo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    margin-top: -22px;
+    padding: 25px 20px;
+    min-height: 80vh;
+}
+@media only screen and (max-width: 768px) {
+    .video-wrapper {
+        flex-direction: column;
+    }
+    .single-video {
+        width: 100%;
+    }
+}
