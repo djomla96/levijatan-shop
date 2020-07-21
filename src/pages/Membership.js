@@ -6,7 +6,7 @@ export default class Membership extends Component {
         return (
             <div className="membership-page-wrapper">
                 <div className="wrapper">
-                <div className="title"><h1>Membership</h1></div>
+                <div className="title"><h1>Članska Karta</h1></div>
                 <div className="content-wrapper">
                     <p>Hvala Vam što podržavate Levijatan.</p>
                     <div className="cards">

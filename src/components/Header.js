@@ -33,7 +33,7 @@ export default class Header extends Component {
               <ul>
                 <li><a href="/membership">Članska Karta</a></li>
                 <li><a href="/shop">Prodavnica</a></li>
-                <li><a href="/contact">Kontakt</a></li>
+                <li><a href="/adopt">Udomi</a></li>
               </ul>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default class Header extends Component {
                 <li><a href="/video-archive">Video Arhiva</a></li>
                 <li><a href="/membership">Članska Karta</a></li>
                 <li><a href="/shop">Prodavnica</a></li>
-                <li><a href="/contact">Kontakt</a></li>
+                <li><a href="/adopt">Udomi</a></li>
               </ul>
             </div>
           </div>
