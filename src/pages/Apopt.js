@@ -6,7 +6,7 @@ const Adopt = () => {
     return (
         <div className="adopt">
             <div className="wrapper">
-                <h1>Udomi stićenika</h1>
+                <h1>Udomi štićenika</h1>
                 <div className="dogs">
                     {dogs.map(dog => {
                         return <CollapseCard key={dog.id} title="Detaljnije" dog={dog}/>

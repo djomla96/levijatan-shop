@@ -12,11 +12,27 @@ export default class Header extends Component {
       burger.classList.toggle("change");
       mobileNav.classList.toggle("show-mobile-nav");
     })
+
+    window.onscroll = function() {myFunction()};
+
+    var header = document.querySelector(".box-shadow");
+    let bodyWrapper = document.querySelector(".body-wrapper");
+
+    function myFunction() {
+      if (window.pageYOffset > 300) {
+        bodyWrapper.classList.add("padding-body")
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+        bodyWrapper.classList.remove("padding-body")
+      }
+    }
   }
 
   render() {
     return (
       <div className="wrapper-nav">
+        <div className="box-shadow">
         <nav className="wrapper">
           <div className="desktop-nav">
             <div className="nav-left">
@@ -58,6 +74,7 @@ export default class Header extends Component {
             </div>
           </div>
         </nav>
+        </div>
       </div>
     )
   }

@@ -19,17 +19,19 @@ function App() {
   return (
     <Router history={history}>
       <div className="App">
-        <Header />
-          <Switch>
-            <Route exact path={'/'} component={Home}/>
-            <Route exact path={'/about'} component={About}/>
-            <Route exact path={'/video-archive'} component={VideoArchive}/>
-            <Route exact path={'/membership'} component={Membership}/>
-            <Route exact path={'/shop'} component={Shop}/>
-            <Route exact path={'/contact'} component={Contact}/>
-            <Route exact path={'/adopt'} component={Adopt}/>
-          </Switch>
-        <Footer /> 
+          <Header />
+          <div className="body-wrapper">
+            <Switch>
+              <Route exact path={'/'} component={Home}/>
+              <Route exact path={'/about'} component={About}/>
+              <Route exact path={'/video-archive'} component={VideoArchive}/>
+              <Route exact path={'/membership'} component={Membership}/>
+              <Route exact path={'/shop'} component={Shop}/>
+              <Route exact path={'/contact'} component={Contact}/>
+              <Route exact path={'/adopt'} component={Adopt}/>
+            </Switch>
+            </div> 
+          <Footer />
       </div>
     </Router>
   );

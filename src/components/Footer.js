@@ -31,7 +31,7 @@ const Footer = () => {
                         <div className="footer-bottom-box">
                             <ul>
                                 <li className="footer-box-title">Clanstvo</li>
-                                <li><a href="/">Želite udomiti stićenika</a></li>
+                                <li><a href="/">Želite udomiti štićenika</a></li>
                                 <li><a href="/membership">Postani član</a></li>
                             </ul>
                         </div>
