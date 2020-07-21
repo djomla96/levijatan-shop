@@ -22,7 +22,7 @@ function Accordion(props) {
 
   return (
     <div className="accordion__section">
-        <div className="collapse-img"><img src={props.dog.img}></img></div>
+        <div className="collapse-img"><img alt={props.dog.id} src={props.dog.img}></img></div>
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
         <p className="accordion__title">{props.title}</p>
         <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
