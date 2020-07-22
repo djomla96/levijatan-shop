@@ -114,3 +114,8 @@ input:focus{
         margin-left: 0!important;
     }
 }
+@media only screen and (max-width: 768px) {
+    .contact {
+        background-image: url("../images/background.jpg");
+    }
+}

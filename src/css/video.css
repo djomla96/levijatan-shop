@@ -40,4 +40,7 @@
     .single-video {
         width: 100%;
     }
+    .videos-page-wrapper {
+        background-image: url("../images/background.jpg");
+    }
 }

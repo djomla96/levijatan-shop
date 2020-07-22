@@ -34,3 +34,8 @@
 .card {
     margin-top: 70px;
 }
+@media only screen and (max-width: 768px) {
+    .membership-page-wrapper {
+      background-image: url("../images/background.jpg");
+    }
+}

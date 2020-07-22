@@ -18,3 +18,8 @@
 .adopt p {
     font-family: ubuntu;
 }
+@media only screen and (max-width: 768px) {
+    .adopt {
+      background-image: url("../images/background.jpg");
+    }
+}
