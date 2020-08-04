@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/adopt.css'
-import dogs from '../json/dogs.json';
-import CollapseCard from "../components/CollapseCard";
+// import dogs from '../json/dogs.json';
+// import CollapseCard from "../components/CollapseCard";
 const Adopt = () => {
     return (
         <div className="adopt">
