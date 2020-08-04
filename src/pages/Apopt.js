@@ -7,10 +7,11 @@ const Adopt = () => {
         <div className="adopt">
             <div className="wrapper">
                 <h1>Udomi štićenika</h1>
+                <p>Cooming soon</p>
                 <div className="dogs">
-                    {dogs.map(dog => {
+                    {/* {dogs.map(dog => {
                         return <CollapseCard key={dog.id} title="Detaljnije" dog={dog}/>
-                    })}
+                    })} */}
                 </div>
             </div>
         </div>

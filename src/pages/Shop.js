@@ -7,7 +7,7 @@ export default class Shop extends Component {
             <div className="shop">
             <div className="wrapper">
                 <h1>Prodavnica</h1>
-                <p>Ovde ce biti shop stranica</p>
+                <p>Cooming soon</p>
             </div>
         </div>
         )
