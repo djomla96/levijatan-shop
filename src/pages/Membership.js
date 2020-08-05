@@ -18,6 +18,10 @@ export default class Membership extends Component {
                         })}
                     </div>
                     <p className="desc-payment">Uplata se vrši unapred, putem našeg dinarskog ili paypal naloga, a onda uz poslate podatke krećemo sa izradom kartica.</p>
+                    <div className="credit-cards">
+                        <div className="icon-wrapper"><i className="fa fa-paypal"></i>support@levijatan.org</div>
+                        <div className="icon-wrapper"><i className="fa fa-credit-card"></i>190-16980-69</div>
+                    </div>
                 </div>
                 
                 </div>

@@ -32,6 +32,10 @@ export default class Header extends Component {
   render() {
     return (
       <div className="wrapper-nav">
+        <div className="credit-cards">
+          <div className="icon-wrapper"><i className="fa fa-paypal"></i>support@levijatan.org</div>
+          <div className="icon-wrapper"><i className="fa fa-credit-card"></i>190-16980-69</div>
+        </div>
         <div className="box-shadow">
         <nav className="wrapper">
           <div className="desktop-nav">

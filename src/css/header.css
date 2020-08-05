@@ -117,6 +117,19 @@ nav ul li a:hover {
 .nav-mobile-list ul li {
     margin: 10px 0;
 }
+.credit-cards {
+    display: flex;
+    font-family: "ubuntu"
+}
+.credit-cards .icon-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.icon-wrapper i {
+    margin-right: 5px;
+
+}
 @media only screen and (max-width: 768px) {
     .desktop-nav {
         display: none
@@ -126,6 +139,10 @@ nav ul li a:hover {
     }
     .footer-text {
         padding: 0 20px;
+    }
+    .credit-cards {
+        display: flex;
+        flex-direction: column;
     }
 }
 
