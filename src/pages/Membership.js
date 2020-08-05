@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import cards from '../json/cards.json';
+import DonateButton from "../components/DonateButton";
+
 import "../css/membership.css";
 export default class Membership extends Component {
     render() {
@@ -22,6 +24,7 @@ export default class Membership extends Component {
                         <div className="icon-wrapper"><i className="fa fa-paypal"></i>support@levijatan.org</div>
                         <div className="icon-wrapper"><i className="fa fa-credit-card"></i>190-16980-69</div>
                     </div>
+                    <DonateButton />
                 </div>
                 
                 </div>

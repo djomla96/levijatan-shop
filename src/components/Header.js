@@ -3,6 +3,7 @@ import '../css/header.css'
 import React, { Component } from 'react'
 import logo from "../images/logo.png";
 // import history from "../utils/history";
+import DonateButton from "../components/DonateButton";
 
 export default class Header extends Component {
   componentDidMount() {
@@ -35,6 +36,7 @@ export default class Header extends Component {
         <div className="credit-cards">
           <div className="icon-wrapper"><i className="fa fa-paypal"></i>support@levijatan.org</div>
           <div className="icon-wrapper"><i className="fa fa-credit-card"></i>190-16980-69</div>
+          <DonateButton is_header={true}/>
         </div>
         <div className="box-shadow">
         <nav className="wrapper">
