@@ -4,8 +4,11 @@ import bannerText from "../images/ukljuciseipodrzinas.png";
 import '../css/home.css'
 import { Transition } from 'react-spring/renderprops'
 import logoNoText from "../images/logo-without-text.png";
+import Modal from 'react-awesome-modal';
 export default class Home extends Component {
-
+    state = {
+        showModal: false
+    }
     render() {
         
         return (
@@ -39,6 +42,9 @@ export default class Home extends Component {
                         <div className="footer-tittle">
                             <h1>POSETITE NAS NA DRUŠTVENIM MREŽAMA</h1>
                         </div>
+                        <div className="button-wrapper">
+                            <button onClick={() => this.setState({ showModal: true })}>Doniraj</button>
+                        </div>
                         <div className="footer-text">
                             <div className="footer-title">Priča o grofu</div>
                             <p>Grof je bio pit bull pronađen krajem oktobra 2016. Ležao je sam i napušten na betonu blizu aerodroma, a njegovo lice prepuno dubokih ožiljaka jasno je otkrivalo da je bio zlostavljan, mučen i teran da se bori u ringu. Uprkos teškoj prošlosti i velikim bolovima koje je danima trpeo, Grof je još uvek imao veliko srce. I posle svega kroz šta je prošao skupio je hrabrost da nam pruži poverenje. Pored ljubavi prema ljudima koju je i dalje imao u svom srcu imao ju je i prema svom drugaru Titu, mešancu koga smo istog dana spasili iz romskog naselja.</p>
@@ -51,6 +57,19 @@ export default class Home extends Component {
                         </div>
                     </div>
                 </div>
+                <Modal visible={this.state.showModal} width="500" height="400" effect="fadeInUp" onClickAway={() => this.setState({showModal: false})}>
+                    <div className="modal-wrapper">
+                        <h1>Doniraj</h1>
+                        <p>Donacijom pomažate i aktivno učestvujete u spašavanju, lečenju i ostalim propratnim troškovima životinja za čija se prava neprestano borimo!</p>
+                        <div className="credit-cards">
+                            <div className="icon-wrapper"><i className="fa fa-paypal"></i>support@levijatan.org</div>
+                            <div className="icon-wrapper"><i className="fa fa-credit-card"></i>190-16980-69</div>
+                        </div>
+                        <div className="button-wrapper">
+                            <button onClick={() => this.setState({showModal: false})}>U redu</button>
+                        </div>
+                    </div>
+                </Modal>
             </div>
         )
     }

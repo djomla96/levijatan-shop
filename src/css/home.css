@@ -21,6 +21,33 @@
     align-items: center;
     color: #ffffff;
 }
+.button-wrapper {
+    min-width: 200px;
+    margin: 30px;
+}
+.button-wrapper button {
+    transition: all 0.3s ease-in-out;
+}
+.button-wrapper button:hover {
+    background: rgba(255,255,255, 0.7);
+}
+.modal-wrapper {
+    text-align: center;
+    padding: 0 20px;
+}
+.modal-wrapper p {
+    font-family: ubuntu;
+}
+.modal-wrapper .button-wrapper button {
+    color: #ffffff;
+}
+.modal-wrapper .button-wrapper button:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+.modal-wrapper .credit-cards {
+    flex-direction: column;
+    align-items: center;
+}
 @media only screen and (max-width: 550px) and (min-width: 320px)  {
     .banner-wrapper {
         height: 30vh;
