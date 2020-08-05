@@ -47,7 +47,7 @@ export default class Home extends Component {
                             <p>Grofino naša, živiš u nama i kroz nas! <br />Hvala Ti!</p>
                             <p>Tvoj Levijatan Team</p>
                             <p className="footer-text-desc"><span>«</span>Kroz Grofa video sam sve pse koje smo spasili i sve pse koje ćemo tek spasiti.<span>»</span></p>
-                            <p className="footer-text-desc">Pavle Bihaly</p>
+                            <p className="footer-text-desc">Pavle Bihali</p>
                         </div>
                     </div>
                 </div>
