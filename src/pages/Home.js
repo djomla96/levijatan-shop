@@ -1,5 +1,5 @@
 import React, { Component} from 'react';
-import bannerImg from "../images/slikapsa.png";
+import bannerImg from "../images/slikapsa-min.png";
 import bannerText from "../images/ukljuciseipodrzinas.png";
 import '../css/home.css'
 import { Transition } from 'react-spring/renderprops'
