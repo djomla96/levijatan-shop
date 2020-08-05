@@ -27,6 +27,10 @@
 }
 .button-wrapper button {
     transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: levijatan;
+    letter-spacing: 3px;
 }
 .button-wrapper button:hover {
     background: rgba(255,255,255, 0.7);
