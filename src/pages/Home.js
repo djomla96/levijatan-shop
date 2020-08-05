@@ -32,9 +32,9 @@ export default class Home extends Component {
                             <img alt="logo" src={logoNoText}></img>
                         </div>
                         <div className="footer-icons">
-                            <a href="https://www.facebook.com/pasazot/"> <i className="fa fa-facebook nf"></i></a>
-                            <a href="https://www.instagram.com/pasazot/?hl=sr"> <i className="fa fa-instagram ni"></i></a>
-                            <a href="https://twitter.com/pasazot?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i className="fa fa-twitter nt"></i></a>
+                            <a href="https://www.facebook.com/levijatanudruzenje/"> <i className="fa fa-facebook nf"></i></a>
+                            <a href="https://www.instagram.com/pokretlevijatan/"> <i className="fa fa-instagram ni"></i></a>
+                            <a href="https://twitter.com/lpokret"><i className="fa fa-twitter nt"></i></a>
                         </div>
                         <div className="footer-tittle">
                             <h1>POSETITE NAS NA DRUŠTVENIM MREŽAMA</h1>
