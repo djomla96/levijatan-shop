@@ -11,6 +11,8 @@ import Membership from "./pages/Membership";
 import Shop from "./pages/Shop";
 import Contact from "./pages/Contact";
 import Adopt from "./pages/Apopt";
+import Urgently from "./pages/Urgently";
+import VirtualFoster from "./pages/VirtualFoster";
 
 import { Router, Route, Switch } from 'react-router-dom';
 import history from "./utils/history";
@@ -29,6 +31,8 @@ function App() {
               <Route exact path={'/shop'} component={Shop}/>
               <Route exact path={'/contact'} component={Contact}/>
               <Route exact path={'/adopt'} component={Adopt}/>
+              <Route exact path={'/urgently'} component={Urgently}/>
+              <Route exact path={'/virtual-foster'} component={VirtualFoster}/>
             </Switch>
             </div> 
           <Footer />
