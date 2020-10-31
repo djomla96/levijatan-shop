@@ -52,7 +52,7 @@ export default class Urgently extends Component {
         <div className="wrapper">
           <h1 className="title">HITNA PRIJAVA</h1>
           <h2>Uputstvo za kreiranje linka ka slici</h2>
-          <p style={{fontFamily: 'ubuntu'}}>Kliknete <a href="https://linkpicture.com/en/?set=en" target="_blank">ovde</a> da generisete link ka fotografiji, odaberite sliku i kliknite na <b>Upload</b>, a zatim kopirajte <b>Direct Link To Photo:...</b> u polje slika</p>
+          <p style={{fontFamily: 'ubuntu'}}>Kliknete <a href="https://linkpicture.com/en/?set=en" target="_blank" rel="noopener noreferrer" >ovde</a> da generisete link ka fotografiji, odaberite sliku i kliknite na <b>Upload</b>, a zatim kopirajte <b>Direct Link To Photo:...</b> u polje slika</p>
           <div className="twoInputs">
             <div className="input-span">
               <input
