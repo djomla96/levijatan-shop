@@ -130,7 +130,7 @@ export default class VirtualFoster extends Component {
               Fondacije „Pokret Levijatan“ putem :
             </p>
             <p>
-              paypal aplikacije :<a href="#">support@levijatan.org</a>
+              paypal aplikacije : support@levijatan.org
             </p>
             <p>Dinarski račun: 190 -16980-69</p>
             <p>Uplate iz inostranstva ( instrukcije ):</p>
