@@ -32,12 +32,11 @@ export default class Urgently extends Component {
   }
 
   sendData(data) {
-    console.log(data)
     axios
       .post("/prijave/save", data)
       .then((response) => {
         this.setState({ errors: {} });
-        notify("Cestitamo, hvala", "Uspesno ste poslali prijavu!", "success");
+        notify("Hvala", "Uspesno ste poslali prijavu!", "success");
       })
       .catch((error) => {
         const errors = error.response.data.errors;
