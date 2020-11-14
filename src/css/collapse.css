@@ -51,7 +51,7 @@
 }
 .collapse-img img {
   width: 100%;
-  height: 389px;
+  height: 630px;
 }
 svg path {
   fill: #fff;
@@ -66,4 +66,10 @@ svg path {
   .accordion__section {
     max-width: 100%;
   }
+  .paragraf {
+    width: unset;
+  }
+  .collapse-img img {
+    height: 389px;
+}
 }
