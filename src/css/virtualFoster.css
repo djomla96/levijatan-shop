@@ -9,3 +9,24 @@
   padding: 25px 20px;
   min-height: 80vh;
 }
+.virtual-foster p{
+  font-family: ubuntu;
+}
+.paragraf{
+  width: 60%;
+  margin: auto;
+}
+.bold-text{
+  font-weight: 900;
+}
+.expand{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.virtual-foster .fa{
+  margin-left: 10px;
+}
+.expand{
+  color: blue;
+}

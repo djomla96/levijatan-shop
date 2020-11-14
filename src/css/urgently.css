@@ -78,9 +78,22 @@
   background: rgba(255, 255, 255, 0.7);
 }
 
+.email{
+  width: 47%;
+}
+
 @media only screen and (max-width: 768px) {
   .twoInputs {
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column !important; 
+  }
+  .email{
+    width: 90%!important; 
+  }
+  .email input{
+    margin: 0 20px;
+  }
+  .email span{
+    margin: 0 20px;
   }
 }

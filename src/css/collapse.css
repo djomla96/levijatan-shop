@@ -51,9 +51,16 @@
 }
 .collapse-img img {
   width: 100%;
+  height: 389px;
 }
 svg path {
   fill: #fff;
+}
+.adoptBtn{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
 }
 @media only screen and (max-width: 694px) {
   .accordion__section {
