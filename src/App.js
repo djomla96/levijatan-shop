@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import About from "./pages/About";
-import VideoArchive from "./pages/VideoArchive";
+import Education from "./pages/Education";
 import Membership from "./pages/Membership";
 import Shop from "./pages/Shop";
 import Contact from "./pages/Contact";
@@ -26,7 +26,7 @@ function App() {
             <Switch>
               <Route exact path={'/'} component={Home}/>
               <Route exact path={'/about'} component={About}/>
-              <Route exact path={'/video-archive'} component={VideoArchive}/>
+              <Route exact path={'/education'} component={Education}/>
               <Route exact path={'/membership'} component={Membership}/>
               <Route exact path={'/shop'} component={Shop}/>
               <Route exact path={'/contact'} component={Contact}/>
