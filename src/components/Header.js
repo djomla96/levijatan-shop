@@ -45,7 +45,7 @@ export default class Header extends Component {
               <ul>
                 <li><a href="/">Početna</a></li>
                 <li><a href="/about">O nama</a></li>
-                <li><a href="/education">Video Arhiva</a></li>
+                <li><a href="/education">Edukacija</a></li>
                 <li><a href="/urgently">Hitna prijava</a></li>
               </ul>
             </div>
