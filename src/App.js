@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-
+import BecomeVirtualFoster from './pages/BecomeVirtualFoster'
 import Home from './pages/Home';
 import About from "./pages/About";
 import Education from "./pages/Education";
@@ -14,7 +14,7 @@ import Adopt from "./pages/Apopt";
 import Urgently from "./pages/Urgently";
 import VirtualFoster from "./pages/VirtualFoster";
 
-import { Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import history from "./utils/history";
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
           <Header />
           <div className="body-wrapper">
             <Switch>
+              <Route exact path={'/become-virtual-foster/:name'} component={BecomeVirtualFoster}/>
               <Route exact path={'/'} component={Home}/>
               <Route exact path={'/about'} component={About}/>
               <Route exact path={'/education'} component={Education}/>
