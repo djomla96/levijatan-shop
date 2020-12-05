@@ -77,7 +77,7 @@ export default function BecomeVirtualFoster() {
                         </div>
                         <div className="input-text-paragraph">Ukoliko želite da budete imenovani, upišite kojim imenom želite da Vas oslovljavamo:</div>
                         <p className="p-text">Ime/Nadimak:</p>
-                        {(checkbox == true) ? <input type="text" className="styled-input" value={nickname} onChange={(e) => setNickname(e.target.value)}></input>  : 
+                        {(checkbox === true) ? <input type="text" className="styled-input" value={nickname} onChange={(e) => setNickname(e.target.value)}></input>  : 
                         <input type="text" disabled className="styled-input" value={nickname} onChange={(e) => setNickname(e.target.value)}></input> 
                         }
                     </p>
