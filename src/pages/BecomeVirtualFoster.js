@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import "../css/becomeVirtualFoster.css";
 import axios from "../http/index";
 import notify from "../utils/notify";
+import LoadingSpinner from "../components/LodingSpinner";
 
 export default function BecomeVirtualFoster() {
     const params = useParams();
@@ -15,17 +16,21 @@ export default function BecomeVirtualFoster() {
     const [animalName, setAnimalName] = useState(params.name);
     const [date, setDate] = useState(0);
     const [nickname, setNickname] = useState("");
+    const [loading, setloading] = useState(false);
 
     useEffect(() => {
         window.scrollTo(0, 0);
     })
 
     const submitHandler = (data) =>{
+        setloading(true);
         axios.post("/users/become-virtual-foster", data)
         .then((response) =>{
+            setloading(false);
             notify("Hvala", "Uspesno ste poslali prijavu!", "success");
         })
         .catch((error) =>{
+            setloading(false);
             notify(error.message,
                 "Greska!",
                 "Doslo je do greske, molimo pokusajte ponovo ili nas kontaktirajte",
@@ -37,6 +42,7 @@ export default function BecomeVirtualFoster() {
 
     return (
         <div className="become-virtual-foster">
+            {loading? <LoadingSpinner /> : null}
             <div className="wrapper">
                 <div className="side-text">
                     <p>Fondacija Pokret Levijatan</p>
