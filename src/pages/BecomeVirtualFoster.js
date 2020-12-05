@@ -84,7 +84,7 @@ export default function BecomeVirtualFoster() {
                     <p className="input-text">
                         <div className="main-text">Mesečni iznos koji želim da uplatim: (označite valutu)</div>
                         <div className="input-text-paragraph">Uplatu mesečnog iznosa koji ste sami izabrali možete izvršiti putem sledećih računa:</div>
-                        <div className="input-text-paragraph">- PayPall-a: <a>support@levijatan.org</a></div>
+                        <div className="input-text-paragraph">- PayPall-a: <a href="mailto:support@levijatan.org">support@levijatan.org</a></div>
                         <div className="input-text-paragraph">- Dinarski račun 190 -16980-69</div>
                         <div className="input-text-paragraph">- Uplate iz inostranstva: Fondacija Pokret Levijatan, Makedonska br. 21, 11000
                             Beograd; IBAN: RS35190007090000004725; SWIFT / BIC : JMBNRSBG</div>
