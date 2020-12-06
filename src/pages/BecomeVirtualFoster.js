@@ -130,7 +130,7 @@ export default function BecomeVirtualFoster() {
                             date: date,
                             anonymous: checkbox,
                             nickname: nickname,
-                        })} >SUBMIT</button>
+                        })} >Pošalji</button>
                     </p>
                 </div>
             </div>
