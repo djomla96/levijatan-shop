@@ -63,7 +63,7 @@ export default function BecomeVirtualFoster() {
                         <input type="text" className="styled-input" value={nameCompany} onChange={(e) => setNameCompany(e.target.value)}></input>
                         <p className="p-text">E-mail<span>*</span></p>
                         <input type="text" className="styled-input" value={email} onChange={(e) => setEmail(e.target.value)}></input>
-                        <p className="p-text">PIB/Matični broj (za pravna lica)<span>*</span></p>
+                        <p className="p-text">PIB/Matični broj (za pravna lica)</p>
                         <input type="number" className="styled-input" value={pib} onChange={(e) => setPib(e.target.value)}></input>
                         <p className="p-text">Kontakt telefon<span>*</span></p>
                         <input type="number" className="styled-input" value={contact} onChange={(e) => setContact(e.target.value)}></input>
