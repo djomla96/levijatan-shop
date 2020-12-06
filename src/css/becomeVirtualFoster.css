@@ -73,3 +73,14 @@
 .date-text span{
     color: red;
 }
+
+@media only screen and (max-width: 768px) {
+    .become-virtual-foster .wrapper {
+        padding: 0 10px;
+        width: unset !important;
+        max-width: 100%;
+    }
+    .become-virtual-foster .styled-input {
+        width: unset !important;
+    }
+}

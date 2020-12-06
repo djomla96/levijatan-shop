@@ -31,9 +31,9 @@ export default function BecomeVirtualFoster() {
         })
         .catch((error) =>{
             setloading(false);
-            notify(error.message,
+            notify(
                 "Greska!",
-                "Doslo je do greske, molimo pokusajte ponovo ili nas kontaktirajte",
+                error.response.data.message,
                 "danger"
               );
         })
