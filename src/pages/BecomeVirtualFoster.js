@@ -20,7 +20,7 @@ export default function BecomeVirtualFoster() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    })
+    }, [params.name])
 
     const submitHandler = (data) =>{
         setloading(true);
