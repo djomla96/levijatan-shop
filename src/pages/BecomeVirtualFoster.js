@@ -17,6 +17,7 @@ export default function BecomeVirtualFoster() {
     const [date, setDate] = useState(0);
     const [nickname, setNickname] = useState("");
     const [loading, setloading] = useState(false);
+    const [amount, setAmount] = useState('')
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -82,7 +83,12 @@ export default function BecomeVirtualFoster() {
                         }
                     </p>
                     <p className="input-text">
-                        <div className="main-text">Mesečni iznos koji želim da uplatim: (označite valutu)</div>
+                        <div className="p-text" >
+                            <div className="main-text">Mesečni iznos koji želim da uplatim: (označite valutu)<span>*</span></div>
+                            <input className="styled-input" type="text" value={amount} onChange={(e) => setAmount(e.target.value)}></input>
+                        </div>
+                        
+
                         <div className="input-text-paragraph">Uplatu mesečnog iznosa koji ste sami izabrali možete izvršiti putem sledećih računa:</div>
                         <div className="input-text-paragraph">- PayPall-a: <a href="mailto:support@levijatan.org">support@levijatan.org</a></div>
                         <div className="input-text-paragraph">- Dinarski račun 190 -16980-69</div>
@@ -130,6 +136,7 @@ export default function BecomeVirtualFoster() {
                             date: date,
                             anonymous: checkbox,
                             nickname: nickname,
+                            amount: amount
                         })} >Pošalji</button>
                     </p>
                 </div>
