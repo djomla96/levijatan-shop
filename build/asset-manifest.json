@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.2aca188b.chunk.css",
-    "main.js": "/static/js/main.da52ab02.chunk.js",
-    "main.js.map": "/static/js/main.da52ab02.chunk.js.map",
+    "main.css": "/static/css/main.d1152a87.chunk.css",
+    "main.js": "/static/js/main.ac084299.chunk.js",
+    "main.js.map": "/static/js/main.ac084299.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9deef81c.js",
     "runtime-main.js.map": "/static/js/runtime-main.9deef81c.js.map",
     "static/css/2.1b60f930.chunk.css": "/static/css/2.1b60f930.chunk.css",
-    "static/js/2.81726cdf.chunk.js": "/static/js/2.81726cdf.chunk.js",
-    "static/js/2.81726cdf.chunk.js.map": "/static/js/2.81726cdf.chunk.js.map",
+    "static/js/2.8c1819dc.chunk.js": "/static/js/2.8c1819dc.chunk.js",
+    "static/js/2.8c1819dc.chunk.js.map": "/static/js/2.8c1819dc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.395e712ab3a276bf7e93bb18eec517f0.js": "/precache-manifest.395e712ab3a276bf7e93bb18eec517f0.js",
+    "precache-manifest.a9896119433eade1b3a3c09bf363c585.js": "/precache-manifest.a9896119433eade1b3a3c09bf363c585.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1b60f930.chunk.css.map": "/static/css/2.1b60f930.chunk.css.map",
-    "static/css/main.2aca188b.chunk.css.map": "/static/css/main.2aca188b.chunk.css.map",
-    "static/js/2.81726cdf.chunk.js.LICENSE.txt": "/static/js/2.81726cdf.chunk.js.LICENSE.txt",
+    "static/css/main.d1152a87.chunk.css.map": "/static/css/main.d1152a87.chunk.css.map",
+    "static/js/2.8c1819dc.chunk.js.LICENSE.txt": "/static/js/2.8c1819dc.chunk.js.LICENSE.txt",
     "static/media/adopt.css": "/static/media/background.dc365efb.jpg",
-    "static/media/virtualFoster.css": "/static/media/backwithlogo.8f132156.jpg",
+    "static/media/urgently.css": "/static/media/backwithlogo.8f132156.jpg",
     "static/media/shop.css": "/static/media/backwithlogoandbasket.3ca0db3e.jpg",
     "static/media/App.css": "/static/media/ubuntu.2505bfbd.TTF",
     "static/media/logo-without-text.png": "/static/media/logo-without-text.20bbea03.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.9deef81c.js",
     "static/css/2.1b60f930.chunk.css",
-    "static/js/2.81726cdf.chunk.js",
-    "static/css/main.2aca188b.chunk.css",
-    "static/js/main.da52ab02.chunk.js"
+    "static/js/2.8c1819dc.chunk.js",
+    "static/css/main.d1152a87.chunk.css",
+    "static/js/main.ac084299.chunk.js"
   ]
 }
