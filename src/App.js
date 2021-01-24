@@ -31,8 +31,8 @@ function App() {
               <Route exact path={'/shop'} component={Shop}/>
               <Route exact path={'/contact'} component={Contact}/>
               <Route exact path={'/adopt'} component={Adopt}/>
-              <Route exact path={'/urgently'} component={Urgently}/>
-              <Route exact path={'/virtual-foster'} component={VirtualFoster}/>
+              {/* <Route exact path={'/urgently'} component={Urgently}/> */}
+              {/* <Route exact path={'/virtual-foster'} component={VirtualFoster}/> */}
             </Switch>
             </div> 
           <Footer />

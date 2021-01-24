@@ -46,7 +46,7 @@ export default class Header extends Component {
                 <li><a href="/">Početna</a></li>
                 <li><a href="/about">O nama</a></li>
                 <li><a href="/video-archive">Video Arhiva</a></li>
-                <li><a href="/urgently">Hitna prijava</a></li>
+                {/* <li><a href="/urgently">Hitna prijava</a></li> */}
               </ul>
             </div>
             <div className="nav-logo">
@@ -57,7 +57,7 @@ export default class Header extends Component {
                 <li><a href="/membership">Članska Karta</a></li>
                 <li><a href="/shop">Prodavnica</a></li>
                 <li><a href="/adopt">Udomi</a></li>
-                <li><a href="/virtual-foster">Virtuelni udomitelj</a></li>
+                {/* <li><a href="/virtual-foster">Virtuelni udomitelj</a></li> */}
               </ul>
             </div>
           </div>
@@ -75,11 +75,11 @@ export default class Header extends Component {
                 <li><a href="/">Početna</a></li>
                 <li><a href="/about">O nama</a></li>
                 <li><a href="/video-archive">Video Arhiva</a></li>
-                <li><a href="/urgently">Hitna prijava</a></li>
+                {/* <li><a href="/urgently">Hitna prijava</a></li> */}
                 <li><a href="/membership">Članska Karta</a></li>
                 <li><a href="/shop">Prodavnica</a></li>
                 <li><a href="/adopt">Udomi</a></li>
-                <li><a href="/virtual-foster">Virtuelni udomitelj</a></li>
+                {/* <li><a href="/virtual-foster">Virtuelni udomitelj</a></li> */}
               </ul>
             </div>
           </div>
