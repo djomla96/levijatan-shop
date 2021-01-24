@@ -1,10 +1,22 @@
 import React, { Component } from "react";
 import "../css/virtualFoster.css";
 import Collapsible from "react-collapsible";
-import virtualFosterCard from "../json/virtualFosterCard.json";
 import CollapseCard from "../components/CollapseCard";
+import notify from "../utils/notify";
+import axios from "../http/index";
 
 export default class VirtualFoster extends Component {
+
+  state = {
+    dogs: []
+  }
+
+  componentDidMount() {
+    axios.get("/dogs")
+      .then(response => this.setState({ dogs: response.data }))
+      .catch(error => notify("ERROR!", `Problemi na serveru, kontaktirajte inzenjera! ${error.message}`, "danger"))
+  }
+
   render() {
     return (
       <div className="virtual-foster">
@@ -208,7 +220,7 @@ export default class VirtualFoster extends Component {
           </Collapsible>
         </div>
         <div className="dogs">
-          {virtualFosterCard.map(dog => {
+          {this.state.dogs.map(dog => {
             return <CollapseCard 
               key={dog.id} 
               title="Detaljnije" 

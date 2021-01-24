@@ -62,6 +62,10 @@ svg path {
   border-radius: 5px;
   box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
 }
+.two-modals{
+  display: flex;
+  justify-content: space-between;
+}
 @media only screen and (max-width: 694px) {
   .accordion__section {
     max-width: 100%;

@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import Chevron from "./Chevron";
 import Modal from "./Modal";
 import "../css/collapse.css";
+import { Link } from 'react-router-dom'
 
 function Accordion(props) {
   const [setActive, setActiveState] = useState("");
@@ -45,7 +46,12 @@ function Accordion(props) {
           <p>Vakcinisan: {props.dog.vaccinated}</p>
           <p>Osobine: {props.dog.performance}</p>
           <p>Opis povrede: {props.dog.desc}</p>
-          <Modal btnText="Udomi" desc={<div><ul><li>1. PAYPAL: support@levijatan.org</li><li>2. Dinarski račun: 190-16980-69</li><li>3. Uplate iz inostranstva (instrukcije):</li><li>Fondacija Pokret Levijatan, </li><li>Makedonska 21, 11000 Beograd</li><li>IBAN: RS35190007090000004725</li><li>SWIFT / BIC: JMBNRSBG</li><li>Obavezno dodati svrhu uplate (ime štićenika)</li></ul></div>} title="Poštovani, Vaš zahtev za virtualnog udomitelja je uspešno realizovan. Uplatu možete izvršiti na sledeći način :"/>
+          <div className="two-modals">
+            {!props.adopt ?<Link to={`/become-virtual-foster/${props.name}`}>
+              <button>POSTANI VIRTUELNI UDOMITELJ</button> 
+            </Link> : null}
+            <Modal btnText="DONIRAJ" desc={<div><ul><li>1. PAYPAL: support@levijatan.org</li><li>2. Dinarski račun: 190-16980-69</li><li>3. Uplate iz inostranstva (instrukcije):</li><li>Fondacija Pokret Levijatan, </li><li>Makedonska 21, 11000 Beograd</li><li>IBAN: RS35190007090000004725</li><li>SWIFT / BIC: JMBNRSBG</li><li>Obavezno dodati svrhu uplate</li></ul></div>} title="Poštovani, Vašu donaciju možete izvršiti na sledeći način:"/>
+          </div>
         </div>
       </div>
     </div>

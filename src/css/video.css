@@ -33,6 +33,17 @@
     padding: 25px 20px;
     min-height: 80vh;
 }
+
+.video-wrapper div {
+    line-height: 1.5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'ubuntu';
+    margin-top: 20px;
+}
+.video-wrapper span {
+    font-size: 2rem;
+}
 @media only screen and (max-width: 768px) {
     .video-wrapper {
         flex-direction: column;
